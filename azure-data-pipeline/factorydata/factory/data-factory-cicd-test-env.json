@@ -1,0 +1,9 @@
+{
+	"name": "data-factory-cicd-test-env",
+	"location": "westus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a56b133c-1347-4479-8ca3-140147284155",
+		"tenantId": "fbbc97a4-6c2d-4946-8ebc-2c1778cfe829"
+	}
+}
