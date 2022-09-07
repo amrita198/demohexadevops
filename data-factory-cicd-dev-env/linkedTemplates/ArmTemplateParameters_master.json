@@ -11,6 +11,9 @@
 		"AzureBlobStorage2_connectionString": {
 			"value": ""
 		},
+		"AzureDatabricks2_accessToken": {
+			"value": ""
+		},
 		"DataPipeline_properties_variables_storage_account_name_defaultValue": {
 			"value": "yourstorageaccount"
 		},

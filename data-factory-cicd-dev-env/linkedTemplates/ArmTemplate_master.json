@@ -15,6 +15,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage2'"
 		},
+		"AzureDatabricks2_accessToken": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accessToken' of 'AzureDatabricks2'"
+		},
 		"DataPipeline_properties_variables_storage_account_name_defaultValue": {
 			"type": "string",
 			"defaultValue": "yourstorageaccount"
@@ -55,6 +59,9 @@
 					},
 					"AzureBlobStorage2_connectionString": {
 						"value": "[parameters('AzureBlobStorage2_connectionString')]"
+					},
+					"AzureDatabricks2_accessToken": {
+						"value": "[parameters('AzureDatabricks2_accessToken')]"
 					},
 					"DataPipeline_properties_variables_storage_account_name_defaultValue": {
 						"value": "[parameters('DataPipeline_properties_variables_storage_account_name_defaultValue')]"
