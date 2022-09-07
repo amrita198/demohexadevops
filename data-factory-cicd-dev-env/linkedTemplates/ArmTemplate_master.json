@@ -11,6 +11,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage1'"
 		},
+		"AzureBlobStorage2_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage2'"
+		},
 		"DataPipeline_properties_variables_storage_account_name_defaultValue": {
 			"type": "string",
 			"defaultValue": "yourstorageaccount"
@@ -48,6 +52,9 @@
 					},
 					"AzureBlobStorage1_connectionString": {
 						"value": "[parameters('AzureBlobStorage1_connectionString')]"
+					},
+					"AzureBlobStorage2_connectionString": {
+						"value": "[parameters('AzureBlobStorage2_connectionString')]"
 					},
 					"DataPipeline_properties_variables_storage_account_name_defaultValue": {
 						"value": "[parameters('DataPipeline_properties_variables_storage_account_name_defaultValue')]"
