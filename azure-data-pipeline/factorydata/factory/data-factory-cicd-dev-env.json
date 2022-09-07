@@ -1,9 +1,9 @@
 {
 	"name": "data-factory-cicd-dev-env",
-	"location": "westus2",
+	"location": "southindia",
 	"identity": {
 		"type": "SystemAssigned",
-		"principalId": "714e9ac6-cf86-4298-bb23-adb4016e4625",
+		"principalId": "cc53599a-7d86-4061-b640-374f27c9692c",
 		"tenantId": "fbbc97a4-6c2d-4946-8ebc-2c1778cfe829"
 	}
 }
